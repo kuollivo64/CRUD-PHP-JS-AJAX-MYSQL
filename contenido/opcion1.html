@@ -1,0 +1,28 @@
+<script>
+$(document).ready(function(){
+	$("#b1").click(function(){
+		$.post("./programas/autenticar.php",
+			{ usuario: $("#usuario").val(), contrasenia: $("#contrasenia").val()}, 
+			function(data){
+				document.getElementById("respuesta").innerHTML="Su usuario: "+data;
+		});
+		
+	});
+				
+});
+</script>
+<h1>Inicio de Sesión</h1>
+	<p>Ingrese su usuario y su contraseña:</p>
+		<table>
+		<tr>
+		<td>Usuario:</td><td><input type="text" id="usuario"/></td>
+		</tr>
+		<tr>
+		<td>Contraseñá:</td><td><input type="password" id="contrasenia"/></td>
+		</tr>
+		</table>
+		<input type="button" value="Ingresar" id="b1"/><br/>
+	<span id="respuesta"></span>
+	<br/>
+	<br/>
+

@@ -1,0 +1,72 @@
+#cabecera {
+    background-image: url("./recursos/cabe.jpg");
+    position: fixed;
+    width: 768px;
+    height: 225px;
+    font-family: Broadway;
+    font-size: 24px;
+    color: rgb(8, 16, 134);
+    text-align: center;
+    margin-left: 155px;
+    margin-top: 0px;
+    z-index : 2;
+  }
+
+  #contenido {
+    position: absolute;
+    padding-left: 20px;
+    width: 748px;
+    background-image: url("./recursos/fondo.gif");
+    margin-left: 155px;
+    margin-top: 240px;
+    z-index:1;
+    font-family: Arial;
+    font-size: 12px;
+  }
+
+  
+
+  #menu {
+    position: fixed;
+    background-color: #010102;
+    width: 150px;
+    margin-top: 0px;
+    padding-top: 100px;
+    height: 500px;
+  }
+
+  #menu h2 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    color: rgb(247, 132, 1);
+    text-align: center;
+  }
+  #menu dt {
+    background-color: #010101;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #010101;
+    border-bottom-color: #010101;
+    line-height: 27px;
+    text-align: center;
+  }
+  #menu dt:hover {
+    color : #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.5s;
+    background: linear-gradient(90deg, transparent,#2196f3);
+  }
+  #menu p {
+    color: rgba(169, 235, 16, 0.541);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 15px;
+  }
+  #cabecera h1 {
+    font-family: "Times New Roman",Times,serif;
+    font-size: 30px;
+    padding-top: 24px;
+  }
+  body {
+    background-image: url("./recursos/matrix.gif");
+  }
